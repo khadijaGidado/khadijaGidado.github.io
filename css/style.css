@@ -1,0 +1,466 @@
+body{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+/*THE HEADINGS*/
+h1 {
+	text-align: center;
+	font-family: 'Calistoga', cursive;
+	font-weight: 50%;
+}
+
+h2{
+	font-family: 'Alata', sans-serif;
+}
+
+h4{
+	font-family: 'Roboto';
+}
+
+h3{
+	font-family: 'Luckiest Guy', cursive;
+}
+h5 {
+font-family: 'Luckiest Guy', cursive;
+}
+h6{
+	font-family: 'Noto Serif', serif;
+}
+
+hr{
+	background-color:
+}
+
+em{
+	font-family: 'Luckiest Guy', cursive;
+}
+/*ENDDDDDDDDDDDDDDDDDDDDDDD*/
+
+/*BESTSELLERS*/
+.flex
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex > div
+{
+	margin-left: 110px;
+	padding: 30px;
+	/*padding-right: 50px;
+	padding-left: 50px;*/
+}
+.flex div.a
+{
+	display: none;
+
+}
+.flex div.acard,p
+{
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+.card1:hover div.a,.card2:hover div.a,.card3:hover div.a
+{
+	display: block;
+	cursor: pointer;
+
+
+}
+
+.card img
+{
+	transition:all 2s;
+}
+
+.shop a{
+	text-decoration: none;
+}
+
+ .btn-primary{
+	background-color: #5E7743;
+	color: red;
+}
+
+/* Clearfix (clear floats) */
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+/*END OF BESTSELLERS*/
+
+.about2 img{
+ float: right;
+}
+.img-circle img{
+	float: left;
+}
+
+/*JUMBOTRON*/
+
+blockquote.bg-gray {
+background: #555555;
+border: 1px solid #b3b3b3;
+border-left: 10px solid #b3b3b3;
+color: #ffffff;
+}
+
+blockquote.bg-primary {
+background: #c97e69;
+border: 1px solid #c97e69;
+border-left: 10px solid #c97e69;
+color: #ffffff;
+}
+    
+blockquote.primary {
+border: 1px solid #c97e69;
+border-left: 10px solid #c97e69;
+}
+
+blockquote.right.primary {
+border-color: #c97e69;
+border-left: 1px solid #c97e69;
+border-right: 10px solid #c97e69;
+}
+
+blockquote.right {
+text-align: right;
+border-width: 1px 10px 1px 1px;
+}
+
+blockquote {
+border: 1px solid #b3b3b3;
+border-left: 10px solid #b3b3b3;
+border-radius: 0px;
+background: #fafafa;
+font-size: 18px;
+margin: 10px;
+padding: 10px 20px;
+}
+
+blockquote p {
+margin: 0;
+line-height: 30px;
+padding-bottom: 20px;
+}
+
+blockquote .small {
+display: block;
+font-size: 80%;
+color: brown;
+text-align: right;
+}
+
+/*END OF JUMBOTRON*/
+
+a{
+	margin: 15px;
+	color: #000; 
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+a:hover{
+	color: #000;
+}
+/*SLIDERRRRRRRRRRRRRR*/
+
+.carousel-item img{
+
+	height: 550px;
+	width: 80px;
+}
+/*ENDD OF SLIDERRRRRRRRRR*/
+  
+
+.text-center img{
+	height: 300px;
+	width: 300px;
+}
+.text-center p{
+	text-align: center;
+}
+
+.card-body{
+	display: flex;
+	visibility: none;
+	transition: 2s;
+}
+/*.card img
+{
+	transition:all 2s;
+}*/
+.card1 img:hover,.card2 img:hover,.card3 img:hover
+{
+	/*height: 300px;
+	width: 300px;*/
+	transform: scale(1.2);
+}
+.card-body.card-text p{
+	text-align: center;
+
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+}
+
+.text-bla img{
+height: 300px;
+width: 300px;
+}
+.text-bla p{
+	text-align: center;
+}
+
+.formm {
+	color: black;
+
+}
+/*CONTACT US FORM STYLE*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+
+}
+ .wrapper{
+	position: absolute;
+	top: 60%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 20px;
+	background-image: url(../images/back.jpg);
+}
+
+.contact-form{
+	max-width: 550px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.8);
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	box-shadow: 0 0 10px;
+
+}
+
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+}
+
+.input-fields, .msg{
+	width: 48%;
+}
+
+.input-fields .input, .msg textarea{
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #5E7743;
+	padding: 10px;
+	color: #5E7743;
+	width: 100%;
+
+}
+
+.msg textarea{
+	height: 212px;
+}
+
+::-webkit-input-placeholder{
+	color: #5E7743;
+}
+
+.msg .btn{
+	background: #5E7743;
+	text-align: center;
+	padding: 10px;
+	border-radius: 20px;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+	.contact-form{
+		flex-direction: column;
+	}
+	.msg textarea{
+		height: 80px;
+	}
+	.input-fields, .msg{
+		width: 100%;
+
+	}
+}
+
+/*END OF CONTACT FORM STYLE*/
+
+.about img{
+	padding: 0 15px;
+	float: left;
+
+}
+.about p{
+	margin-top: 20px;
+	font-family: 'Bad Script', cursive;
+}
+
+.sm img{
+	margin-top: 40px;.flex
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex > div
+{
+	margin-left: 110px;
+	padding: 30px;
+	/*padding-right: 50px;
+	padding-left: 50px;*/
+}
+.flex div.a
+{
+	display: none;
+
+}
+.flex div.acard,p
+{
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+.card1:hover div.a,.card2:hover div.a,.card3:hover div.a
+{
+	display: block;
+	cursor: pointer;
+
+
+}
+
+.card img
+{
+	transition:all 2s;
+}
+/* Clearfix (clear floats) */
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/.flex
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex > div
+{
+	margin-left: 110px;
+	padding: 30px;
+	/*padding-right: 50px;
+	padding-left: 50px;*/
+}
+.flex div.a
+{
+	display: none;
+
+}
+.flex div.acard,p
+{
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+.card1:hover div.a,.card2:hover div.a,.card3:hover div.a
+{
+	display: block;
+	cursor: pointer;
+
+
+}
+
+.card img
+{
+	transition:all 2s;
+}
+.overall
+{
+	margin:auto;
+	height:300px;
+	overflow: hidden;
+	flex-wrap: wrap;
+	/*background-color: red;*/
+}
+.vertical{
+
+	position: absolute;
+	flex-wrap: wrap;
+}
+
+.vertical1{
+	border-left: 2px solid black;
+	height: 200px;
+	position: absolute;
+	left: 70%;
+	flex-wrap: wrap;
+
+}
+
+.vertical2{
+	border-left: 2px solid black;
+	height: 200px;
+	position: absolute;
+	left:  35%;
+	flex-wrap: wrap;
+	
+}
+.ver{
+	position: relative;
+	text-align: center;
+	padding: 200px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+.ver2 {
+
+	position: relative;
+	text-align: center;
+	padding: 200px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+.ver1{
+	position: relative;
+	text-align: center;
+	padding: 200px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+
+.fas{
+	color: black;
+}
+
+
+
+
+
+.footer,
+.push { 
+  height: auto;
+}

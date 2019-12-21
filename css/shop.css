@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bell.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    font-weight: 50%;
+    text-align: center;
+}
+h4{
+     font-family: 'Calistoga', cursive;
+}
+
+h6{
+    font-family: 'Noto Serif', serif;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 3px;
+    padding: 20px;
+}
+.all .card img{
+    margin: 20px;
+}
